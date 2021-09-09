@@ -12,7 +12,7 @@ spec:
       labels:
         app: nginx-app
     spec:
-	restartPolicy: Never
+      restartPolicy: Never
       containers:
       - name: nginx-container
         image: nginx:alpine
